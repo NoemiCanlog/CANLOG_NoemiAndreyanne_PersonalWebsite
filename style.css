@@ -122,6 +122,10 @@ a {
   font-size: 14px;
   font-weight: bold;
 }
+.portfolio-text-container-right
+{
+  right: 0px;
+}
 .portfolio-text-container-left
 {
   left: 0px;
@@ -138,4 +142,25 @@ a {
 #portfolio-2
 {
   background-color:   #DDA0DD;
+}
+.text
+{
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  color: #cccccc;
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+
+.text a
+{
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#portfolio-3
+{
+  background-color: #FF69B4;
 }
