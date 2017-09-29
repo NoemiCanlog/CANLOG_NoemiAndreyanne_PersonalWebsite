@@ -5,7 +5,7 @@ html,body{
   height: 100%;
 }
 body{
-     font-family: arial, sans-serif;
+     font-family: arial, sans-serif, miso-bold;
      text-align: center;
 }
 *{
@@ -143,6 +143,12 @@ a {
 {
   background-color:   #DDA0DD;
 }
+#portfolio-container-2
+{
+  background-image: url(./images/skillsimg.png);
+}
+
+
 .text
 {
   position: relative;
@@ -164,6 +170,11 @@ a {
 {
   background-color: #FF69B4;
 }
+#portfolio-container-3
+{
+  background-image: url(./images/contactimg.png);
+}
+
 
 footer
 {
