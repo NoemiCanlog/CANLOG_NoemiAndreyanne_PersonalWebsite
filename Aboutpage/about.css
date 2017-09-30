@@ -5,6 +5,27 @@ body
 	background-color: #80bfff;
 }
 
+#ornfc
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #B0E0E6;
+}
+
+#ornwall
+{
+	position: fixed;
+	left: 0px;
+	top: 50%;
+	width: 100%;
+	height: 1740px;
+	margin-top: -870px;
+	background-color: #87CEFA;
+}
+
 #loading
 {
 	position: fixed;
@@ -139,6 +160,32 @@ body
     animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
+}
+
+
+
+@keyframes shift-up
+{
+	0%   { top: 100%; }
+  	100% { top: 50%; }
+}
+
+@keyframes shift-down
+{
+	0%   { top: 0%; }
+  	100% { top: 50%; }
+}
+
+@keyframes shift-left
+{
+	0%   { left: 100%; }
+  	100% { left: 50%; }
+}
+
+@keyframes shift-right
+{
+	0%   { left: 0%; }
+  	100% { left: 50%; }
 }
 
 
