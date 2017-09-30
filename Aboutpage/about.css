@@ -83,11 +83,31 @@ body
 	margin-top: -270px;
 	background-image: url(./images/notes.png);
 }
-.ornament-shift-up
+.design-shift-up
 {
 	animation-name: shift-up;
     animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
+
+#design-case
+{
+	position: absolute;
+	width: 170px;
+	height: 270px;
+	left: 50%;
+	top: 50%;
+	margin-left: -460px;
+	margin-top: 30px;
+	background-image: url(./images/case.png);
+}
+.design-shift-down
+{
+	animation-name: shift-down;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
 
