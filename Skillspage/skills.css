@@ -1,0 +1,28 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #954a91;
+}
+
+#ornfc
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #954a91;
+}
+
+#ornwall
+{
+	position: fixed;
+	left: 0px;
+	top: 50%;
+	width: 100%;
+	height: 1740px;
+	margin-top: -870px;
+	background-color: #954a91;
+}
+
