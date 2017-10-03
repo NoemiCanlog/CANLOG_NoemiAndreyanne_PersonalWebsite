@@ -88,3 +88,32 @@ body
 	-o-animation:      scroll-down-text-animation 1s infinite; /* Opera 12+ */
 	animation:         scroll-down-text-animation 1s infinite; /* IE 10+, Fx 29+ */
 }
+
+@-webkit-keyframes scroll-down-text-animation
+{
+  0%   { opacity: 1; }
+  50%   { opacity: 1; }
+  51%   { opacity: 0; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes scroll-down-text-animation
+{
+  0%   { opacity: 1; }
+  50%   { opacity: 1; }
+  51%   { opacity: 0; }
+  100% { opacity: 0; }
+}
+@-o-keyframes scroll-down-text-animation
+{
+  0%   { opacity: 1; }
+  50%   { opacity: 1; }
+  51%   { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes scroll-down-text-animation
+{
+  0%   { opacity: 1; }
+  50%   { opacity: 1; }
+  51%   { opacity: 0; }
+  100% { opacity: 0; }
+}
