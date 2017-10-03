@@ -116,4 +116,31 @@ body
   50%   { opacity: 1; }
   51%   { opacity: 0; }
   100% { opacity: 0; }
+
+img
+{
+	display: table; 
+}
+
+}
+#illustrations
+{
+	position: absolute;
+	width: 100%; /*to make project div center horizontally in mobile devices*/
+	top: 100%;
+	display: table; /*to make height wrap content*/
+}
+.illustration
+{
+	position: relative;
+	width: 900px;
+	display: table; /*to make height wrap content*/
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+	border-radius: 50px;
+	background-color: #808080;
 }
