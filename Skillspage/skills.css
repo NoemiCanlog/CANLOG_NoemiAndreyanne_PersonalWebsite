@@ -59,3 +59,32 @@ body
 	0%   { top: 100%; }
   	100% { top: 50%; }
 }
+
+#scroll-down
+{
+	position: absolute;
+	left: 50%;
+	bottom: 15%;
+	width: 250px;
+	height: 50px;
+	margin-left: -220px;
+	border-radius: 25px;
+	background-color: #404040;
+}
+
+#scroll-down-text
+{
+	position: relative;
+	font-family: frankfurter-plain;
+	color: #ffffff;
+	font-size: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 11px;
+	display: table; /*to make height wrap content*/
+
+	-webkit-animation: scroll-down-text-animation 1s infinite; /* Safari 4+ */
+	-moz-animation:    scroll-down-text-animation 1s infinite; /* Fx 5+ */
+	-o-animation:      scroll-down-text-animation 1s infinite; /* Opera 12+ */
+	animation:         scroll-down-text-animation 1s infinite; /* IE 10+, Fx 29+ */
+}
