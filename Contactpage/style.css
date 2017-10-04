@@ -29,3 +29,41 @@ header {
      margin-right: auto;
      background-color: #505050;
 }
+
+#title-noemi{
+     top: 12px;
+     float: left;
+}
+.title {
+	   position:relative;
+	   font-family: sans-serif;
+	   color: #000000;
+	   font-size: 30px;
+	   margin-bottom: 20px;
+}
+
+#icons-container-right{
+	   position: relative;
+	   top: 8px;
+	   float: right;
+}
+.icon{
+     position: relative;
+     width: 44px;
+     height: 44px;
+     margin-right: 8px;
+     float: left;
+}
+
+.icon-facebook {
+	   background-image: url(./images/facebookicon.png);
+}
+.icon-twitter{
+     background-image: url(./images/icon-twitter.png);
+}
+.icon-instagram{
+     background-image: url(./images/instagram.png);
+}
+.icon-github{
+     background-image: url(./images/github.png);
+}
